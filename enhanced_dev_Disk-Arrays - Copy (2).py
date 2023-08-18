@@ -28,7 +28,7 @@ def main():
 		return crt.Screen.WaitForStrings ([ "#", ">", ":", "OK."])
 
 	def get_array_name(array_name):
-		array_name=crt.Dialog.Prompt("-->Disk Array Name :", "► Enter Array Name. ", "===AUTOMATION ROCKS===", False)
+		array_name=crt.Dialog.Prompt("-->Disk Array Name :", "► Enter Array Name. ", "===HELLO LIC FROM VS-CODE===", False)
 		return array_name
 	def return_controller_select(id_controller):
 		id_controller= crt.Dialog.Prompt("■ Select Controller (A|B): ", "► Select Controller from menu: ", "A|B", False)
